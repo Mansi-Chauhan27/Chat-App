@@ -11,7 +11,5 @@ urlpatterns = [
     # path('<pk>/updategroup/', views.GroupUpdateView.as_view(), name='update-group'),
     path('group/<str:group_id>/action/', views.GroupActions.as_view(), name='actions-group'),
     path('<str:room_name>/', views.room, name='room'),
-    path('api/addmessage/', views.AddMessage.as_view(), name = "addmessage"),
-    path('api/messages/<int:group_id>', views.ListMessages.as_view(), name = "messages"),
     
 ]
