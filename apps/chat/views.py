@@ -1,17 +1,16 @@
 from django.shortcuts import render
-from rest_framework import response
 from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework import generics
-from apps.chat.models import Group, Message
-from apps.chat.Serializers import GroupSerialzer, UserSerialzer, MessageSerialzer
+from apps.chat.models import Group
+from apps.chat.Serializers import GroupSerialzer, UserSerialzer
 from rest_framework.response import Response
 from django.contrib.auth.models import User
-from rest_framework.generics import CreateAPIView
+from django.views.generic.edit import UpdateView
 from rest_framework.views import APIView
 from rest_framework.status import (HTTP_200_OK, HTTP_201_CREATED,
                                    HTTP_400_BAD_REQUEST, HTTP_404_NOT_FOUND, HTTP_405_METHOD_NOT_ALLOWED)
 
-# from apps.common.utils4 import create_presigned_post
+from apps.common.utils4 import create_presigned_post
 
 
 def index(request):
@@ -83,23 +82,7 @@ class GeneratePresignedUrl(APIView):
 
     def post(self, request):
         print(request.data)
-        # response = create_presigned_post('mybucket-chatapp', request.data['fileName'])
-        response = "Uncomment utils4.py file"
+        response = create_presigned_post('mybucket-chatapp', request.data['fileName'])
         print(response)
         return Response({'data':response}, status=HTTP_200_OK)
 
-class AddMessage(CreateAPIView):
-     serializer_class = MessageSerialzer
-
-class ListMessages(APIView):
-    def get(self, request, group_id):
-        if group_id:
-            queryset = Message.objects.filter(to_group_id = group_id)
-            if queryset:
-                serializer = MessageSerialzer(queryset, many=True)
-                return Response(serializer.data)
-            else:
-                return Response({'msg':'Messages Not Found'},status=HTTP_404_NOT_FOUND)
-        else:
-                data = {"params":"Group Not Found"}
-                return Response(data, status = HTTP_400_BAD_REQUEST)
