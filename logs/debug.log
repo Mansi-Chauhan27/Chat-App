@@ -1332,3 +1332,105 @@ Watching for file changes with StatReloader
 [mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:38328][0m
 [mHTTP POST /chat/sign_s3/ 200 [0.02, 127.0.0.1:38328][0m
 [mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:40572][0m
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /test/populate/
+[33mHTTP GET /test/populate/ 404 [0.01, 127.0.0.1:51250][0m
+Not Found: /
+[33mHTTP GET / 404 [0.01, 127.0.0.1:51250][0m
+[32mHTTP GET /admin/ 302 [0.02, 127.0.0.1:51250][0m
+[mHTTP GET /admin/login/?next=/admin/ 200 [0.01, 127.0.0.1:51250][0m
+[mHTTP POST /admin/login/?next=/admin/ 200 [0.07, 127.0.0.1:51250][0m
+Watching for file changes with StatReloader
+[32mHTTP POST /admin/login/?next=/admin/ 302 [0.10, 127.0.0.1:51262][0m
+[mHTTP GET /admin/ 200 [0.04, 127.0.0.1:51262][0m
+[mHTTP GET /admin/auth/user/ 200 [0.04, 127.0.0.1:51262][0m
+[mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:51262][0m
+Internal Server Error: /chat/api/messages/1
+Traceback (most recent call last):
+  File "/home/sarath/Documents/Chat-App/chat-app/lib/python3.8/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/home/sarath/Documents/Chat-App/chat-app/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/home/sarath/Documents/Chat-App/chat-app/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sarath/Documents/Chat-App/chat-app/lib/python3.8/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/sarath/Documents/Chat-App/chat-app/lib/python3.8/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/home/sarath/Documents/Chat-App/chat-app/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sarath/Documents/Chat-App/chat-app/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sarath/Documents/Chat-App/chat-app/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sarath/Documents/Chat-App/chat-app/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sarath/Documents/Chat-App/chat-app/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/sarath/Documents/Chat-App/chat-app/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sarath/Documents/Chat-App/apps/chat/views.py", line 94, in get
+    queryset = Message.objects.filter(group_id = group_id)
+  File "/home/sarath/Documents/Chat-App/chat-app/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sarath/Documents/Chat-App/chat-app/lib/python3.8/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/sarath/Documents/Chat-App/chat-app/lib/python3.8/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/sarath/Documents/Chat-App/chat-app/lib/python3.8/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/sarath/Documents/Chat-App/chat-app/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/sarath/Documents/Chat-App/chat-app/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/sarath/Documents/Chat-App/chat-app/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1286, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/home/sarath/Documents/Chat-App/chat-app/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1112, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/sarath/Documents/Chat-App/chat-app/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1539, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'group_id' into field. Choices are: created_at, from_user_id, from_user_id_id, id, s3_url_link, to_group_id, to_group_id_id, urltoken
+[35;1mHTTP GET /chat/api/messages/1 500 [0.04, 127.0.0.1:51262][0m
+/home/sarath/Documents/Chat-App/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /chat/api/messages/1
+[33mHTTP GET /chat/api/messages/1 404 [0.06, 127.0.0.1:51298][0m
+[mHTTP GET /admin/chat/message/ 200 [0.03, 127.0.0.1:51298][0m
+[mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:51298][0m
+[mHTTP GET /admin/chat/message/add/ 200 [0.04, 127.0.0.1:51298][0m
+[mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:51298][0m
+[32mHTTP POST /admin/chat/message/add/ 302 [0.02, 127.0.0.1:51298][0m
+[mHTTP GET /admin/chat/message/ 200 [0.02, 127.0.0.1:51298][0m
+[mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:51298][0m
+[mHTTP GET /admin/chat/group/ 200 [0.03, 127.0.0.1:51298][0m
+[mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:51298][0m
+[mHTTP GET /admin/chat/group/1/change/ 200 [0.03, 127.0.0.1:51298][0m
+[mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:51298][0m
+[32mHTTP POST /admin/chat/group/1/change/ 302 [0.03, 127.0.0.1:51298][0m
+[mHTTP GET /admin/chat/group/ 200 [0.03, 127.0.0.1:51298][0m
+[mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:51298][0m
+[mHTTP GET /admin/chat/group/1/change/ 200 [0.04, 127.0.0.1:51298][0m
+[mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:51298][0m
+[32mHTTP POST /admin/chat/group/1/change/ 302 [0.03, 127.0.0.1:51298][0m
+[mHTTP GET /admin/chat/group/ 200 [0.02, 127.0.0.1:51298][0m
+[mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:51298][0m
+[mHTTP GET /admin/chat/group/1/change/ 200 [0.03, 127.0.0.1:51298][0m
+[mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:51298][0m
+[mHTTP GET /chat/api/messages/1 200 [0.03, 127.0.0.1:51298][0m
+/home/sarath/Documents/Chat-App/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/sarath/Documents/Chat-App/apps/chat/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /test/populate/
+[33mHTTP GET /test/populate/ 404 [0.01, 127.0.0.1:51482][0m
+Method Not Allowed: /chat/api/addmessage/
+[31;1mHTTP GET /chat/api/addmessage/ 405 [0.03, 127.0.0.1:51482][0m
+[mHTTP POST /chat/api/addmessage/ 201 [0.03, 127.0.0.1:51482][0m
+[mHTTP GET /chat/api/messages/1 200 [0.01, 127.0.0.1:51482][0m
