@@ -62,10 +62,10 @@ import requests    # To install: pip install requests
 # If successful, returns HTTP status code 204
 # logging.info(f'File upload HTTP status code: {http_response.status_code}')
 
-url = create_presigned_url('mybucket-chatapp', '1628248805883.webm')
-print(url)
-if url is not None:
-    response = requests.get(url)
-    print(response)
+# url = create_presigned_url('mybucket-chatapp', '1628248805883.webm')
+# print(url)
+# if url is not None:
+#     response = requests.get(url)
+#     print(response)
 
 # print(response)
