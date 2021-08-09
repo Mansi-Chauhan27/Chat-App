@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 
 class Group(models.Model):
     name = models.CharField(max_length=128)
-    user = models.ManyToManyField(User)
+    user = models.ManyToManyField(User, related_name='group_detail',)
     created_at = models.DateTimeField(auto_now_add=True,null=True,blank=True)
     active = models.BooleanField(default=True)
     updated_at = models.DateTimeField(null=True,blank=True)
@@ -14,6 +14,9 @@ class Group(models.Model):
         db_table = "groups"
         verbose_name = "Group"
         managed  = True
+
+    def get_group_by_userid(userid):
+        return Group.objects.filter(user=userid)
 
 
 class Message(models.Model):
