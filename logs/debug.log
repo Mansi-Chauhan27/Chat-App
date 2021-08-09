@@ -1332,3 +1332,49 @@ Watching for file changes with StatReloader
 [mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:38328][0m
 [mHTTP POST /chat/sign_s3/ 200 [0.02, 127.0.0.1:38328][0m
 [mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:40572][0m
+Watching for file changes with StatReloader
+[mHTTP OPTIONS /chat/sign_s3/ 200 [0.00, 127.0.0.1:54078][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.01, 127.0.0.1:54078][0m
+WebSocket HANDSHAKING /ws/chat/test/ [127.0.0.1:33652]
+WebSocket CONNECT /ws/chat/test/ [127.0.0.1:33652]
+WebSocket HANDSHAKING /ws/chat/test/ [127.0.0.1:33670]
+WebSocket CONNECT /ws/chat/test/ [127.0.0.1:33670]
+WebSocket DISCONNECT /ws/chat/test/ [127.0.0.1:33670]
+WebSocket DISCONNECT /ws/chat/test/ [127.0.0.1:33652]
+WebSocket HANDSHAKING /ws/chat/test/ [127.0.0.1:33968]
+WebSocket CONNECT /ws/chat/test/ [127.0.0.1:33968]
+WebSocket HANDSHAKING /ws/chat/test/ [127.0.0.1:33970]
+WebSocket CONNECT /ws/chat/test/ [127.0.0.1:33970]
+WebSocket DISCONNECT /ws/chat/test/ [127.0.0.1:33968]
+WebSocket DISCONNECT /ws/chat/test/ [127.0.0.1:33970]
+WebSocket HANDSHAKING /ws/chat/test/ [127.0.0.1:34578]
+WebSocket CONNECT /ws/chat/test/ [127.0.0.1:34578]
+WebSocket HANDSHAKING /ws/chat/test/ [127.0.0.1:34584]
+WebSocket CONNECT /ws/chat/test/ [127.0.0.1:34584]
+WebSocket DISCONNECT /ws/chat/test/ [127.0.0.1:34584]
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/common/utils4.py changed, reloading.
+Watching for file changes with StatReloader
+WebSocket HANDSHAKING /ws/chat/test/ [127.0.0.1:35576]
+WebSocket CONNECT /ws/chat/test/ [127.0.0.1:35576]
+WebSocket HANDSHAKING /ws/chat/test/ [127.0.0.1:35586]
+WebSocket CONNECT /ws/chat/test/ [127.0.0.1:35586]
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/consumers.py changed, reloading.
+Watching for file changes with StatReloader
+WebSocket HANDSHAKING /ws/chat/test/ [127.0.0.1:36108]
+WebSocket CONNECT /ws/chat/test/ [127.0.0.1:36108]
+WebSocket HANDSHAKING /ws/chat/test/ [127.0.0.1:36118]
+WebSocket CONNECT /ws/chat/test/ [127.0.0.1:36118]
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/consumers.py changed, reloading.
+Watching for file changes with StatReloader
+WebSocket HANDSHAKING /ws/chat/test/ [127.0.0.1:36684]
+WebSocket CONNECT /ws/chat/test/ [127.0.0.1:36684]
+WebSocket HANDSHAKING /ws/chat/test/ [127.0.0.1:36696]
+WebSocket CONNECT /ws/chat/test/ [127.0.0.1:36696]
+WebSocket DISCONNECT /ws/chat/test/ [127.0.0.1:36696]
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/consumers.py changed, reloading.
+Watching for file changes with StatReloader
+WebSocket HANDSHAKING /ws/chat/test/ [127.0.0.1:37280]
+WebSocket CONNECT /ws/chat/test/ [127.0.0.1:37280]
+WebSocket HANDSHAKING /ws/chat/test/ [127.0.0.1:37290]
+WebSocket CONNECT /ws/chat/test/ [127.0.0.1:37290]
+WebSocket DISCONNECT /ws/chat/test/ [127.0.0.1:37290]
