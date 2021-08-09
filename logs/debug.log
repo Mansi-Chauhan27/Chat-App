@@ -1434,3 +1434,4 @@ Method Not Allowed: /chat/api/addmessage/
 [31;1mHTTP GET /chat/api/addmessage/ 405 [0.03, 127.0.0.1:51482][0m
 [mHTTP POST /chat/api/addmessage/ 201 [0.03, 127.0.0.1:51482][0m
 [mHTTP GET /chat/api/messages/1 200 [0.01, 127.0.0.1:51482][0m
+Watching for file changes with StatReloader
