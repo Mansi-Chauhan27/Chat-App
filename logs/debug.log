@@ -4,3 +4,1331 @@ Watching for file changes with StatReloader
 /home/mansi/Documents/work/chat/chatapp/chatapp/core/settings.py changed, reloading.
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+[33mHTTP GET / 404 [0.02, 127.0.0.1:36850][0m
+[mHTTP GET /chat/ 200 [0.01, 127.0.0.1:36850][0m
+[32mHTTP GET /chat/group 301 [0.01, 127.0.0.1:36850][0m
+[mHTTP GET /chat/group/ 200 [0.01, 127.0.0.1:36850][0m
+WebSocket HANDSHAKING /ws/chat/group/ [127.0.0.1:36928]
+WebSocket CONNECT /ws/chat/group/ [127.0.0.1:36928]
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /chat/group/
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[35;1mHTTP GET /chat/group/ 500 [0.06, 127.0.0.1:37190][0m
+Internal Server Error: /chat/group/
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[35;1mHTTP GET /chat/group/ 500 [0.03, 127.0.0.1:37190][0m
+Internal Server Error: /chat/group/
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[35;1mHTTP GET /chat/group/ 500 [0.04, 127.0.0.1:37190][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /chat/group/
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[35;1mHTTP GET /chat/group/ 500 [0.08, 127.0.0.1:38258][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /chat/group/
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+TypeError: as_view() takes 1 positional argument but 2 were given
+[35;1mHTTP GET /chat/group/ 500 [0.10, 127.0.0.1:39172][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /chat/group/
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[35;1mHTTP GET /chat/group/ 500 [0.09, 127.0.0.1:39272][0m
+Watching for file changes with StatReloader
+[32mHTTP GET /admin/ 302 [0.01, 127.0.0.1:39788][0m
+[mHTTP GET /admin/login/?next=/admin/ 200 [0.07, 127.0.0.1:39788][0m
+[mHTTP GET /static/admin/css/base.css 200 [0.01, 127.0.0.1:39788][0m
+[mHTTP GET /static/admin/css/responsive.css 200 [0.01, 127.0.0.1:39790][0m
+[mHTTP GET /static/admin/css/nav_sidebar.css 200 [0.01, 127.0.0.1:39792][0m
+[mHTTP GET /static/admin/js/nav_sidebar.js 200 [0.01, 127.0.0.1:39794][0m
+[mHTTP GET /static/admin/css/login.css 200 [0.01, 127.0.0.1:39796][0m
+[32mHTTP GET /admin/ 302 [0.01, 127.0.0.1:39796][0m
+[mHTTP GET /admin/login/?next=/admin/ 200 [0.02, 127.0.0.1:39796][0m
+[mHTTP GET /static/admin/css/fonts.css 200 [0.00, 127.0.0.1:39796][0m
+[mHTTP GET /static/admin/fonts/Roboto-Regular-webfont.woff 200 [0.00, 127.0.0.1:39796][0m
+[mHTTP GET /static/admin/fonts/Roboto-Light-webfont.woff 200 [0.01, 127.0.0.1:39794][0m
+[32mHTTP POST /admin/login/?next=/admin/ 302 [0.18, 127.0.0.1:39794][0m
+[mHTTP GET /admin/ 200 [0.02, 127.0.0.1:39794][0m
+[mHTTP GET /static/admin/css/dashboard.css 200 [0.00, 127.0.0.1:39794][0m
+[mHTTP GET /static/admin/img/icon-addlink.svg 200 [0.00, 127.0.0.1:39794][0m
+[mHTTP GET /static/admin/img/icon-changelink.svg 200 [0.01, 127.0.0.1:39796][0m
+[mHTTP GET /static/admin/fonts/Roboto-Bold-webfont.woff 200 [0.00, 127.0.0.1:39796][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/admin.py changed, reloading.
+Watching for file changes with StatReloader
+[mHTTP GET /admin/ 200 [0.08, 127.0.0.1:41164][0m
+[mHTTP GET /admin/auth/user/add/ 200 [0.04, 127.0.0.1:41164][0m
+[mHTTP GET /static/admin/css/forms.css 200 [0.01, 127.0.0.1:41164][0m
+[mHTTP GET /static/admin/js/vendor/jquery/jquery.js 200 [0.01, 127.0.0.1:41242][0m
+[mHTTP GET /static/admin/js/actions.js 200 [0.01, 127.0.0.1:41244][0m
+[mHTTP GET /static/admin/js/urlify.js 200 [0.02, 127.0.0.1:41246][0m
+[mHTTP GET /static/admin/js/vendor/xregexp/xregexp.js 200 [0.02, 127.0.0.1:41248][0m
+[mHTTP GET /static/admin/js/jquery.init.js 200 [0.02, 127.0.0.1:41164][0m
+[mHTTP GET /static/admin/css/widgets.css 200 [0.01, 127.0.0.1:41242][0m
+[mHTTP GET /static/admin/js/core.js 200 [0.01, 127.0.0.1:41244][0m
+[mHTTP GET /static/admin/js/admin/RelatedObjectLookups.js 200 [0.01, 127.0.0.1:41246][0m
+[mHTTP GET /static/admin/js/prepopulate.js 200 [0.01, 127.0.0.1:41248][0m
+[mHTTP GET /static/admin/js/prepopulate_init.js 200 [0.01, 127.0.0.1:41164][0m
+[mHTTP GET /static/admin/js/change_form.js 200 [0.01, 127.0.0.1:41164][0m
+[mHTTP GET /admin/jsi18n/ 200 [0.05, 127.0.0.1:41166][0m
+[mHTTP POST /admin/auth/user/add/ 200 [0.05, 127.0.0.1:41166][0m
+[mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:41166][0m
+[32mHTTP POST /admin/auth/user/add/ 302 [0.17, 127.0.0.1:41166][0m
+[mHTTP GET /admin/auth/user/3/change/ 200 [0.07, 127.0.0.1:41166][0m
+[mHTTP GET /static/admin/js/calendar.js 200 [0.00, 127.0.0.1:41164][0m
+[mHTTP GET /static/admin/js/admin/DateTimeShortcuts.js 200 [0.01, 127.0.0.1:41248][0m
+[mHTTP GET /static/admin/js/SelectBox.js 200 [0.01, 127.0.0.1:41246][0m
+[mHTTP GET /static/admin/js/SelectFilter2.js 200 [0.01, 127.0.0.1:41244][0m
+[mHTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:41166][0m
+[mHTTP GET /static/admin/img/icon-yes.svg 200 [0.00, 127.0.0.1:41166][0m
+[mHTTP GET /static/admin/img/icon-unknown.svg 200 [0.00, 127.0.0.1:41166][0m
+[mHTTP GET /static/admin/img/selector-icons.svg 200 [0.01, 127.0.0.1:41244][0m
+[mHTTP GET /static/admin/img/icon-unknown-alt.svg 200 [0.01, 127.0.0.1:41246][0m
+[mHTTP GET /static/admin/img/icon-calendar.svg 200 [0.01, 127.0.0.1:41248][0m
+[mHTTP GET /static/admin/img/icon-clock.svg 200 [0.02, 127.0.0.1:41164][0m
+[mHTTP GET /static/admin/img/search.svg 200 [0.02, 127.0.0.1:41242][0m
+[32mHTTP POST /admin/auth/user/3/change/ 302 [0.03, 127.0.0.1:41242][0m
+[mHTTP GET /admin/auth/user/ 200 [0.04, 127.0.0.1:41242][0m
+[mHTTP GET /static/admin/css/changelists.css 200 [0.00, 127.0.0.1:41242][0m
+[mHTTP GET /static/admin/img/icon-no.svg 200 [0.00, 127.0.0.1:41242][0m
+[mHTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:41164][0m
+[mHTTP GET /static/admin/img/tooltag-add.svg 200 [0.00, 127.0.0.1:41164][0m
+[mHTTP GET /static/admin/img/sorting-icons.svg 200 [0.01, 127.0.0.1:41242][0m
+[mHTTP GET /admin/auth/user/add/ 200 [0.05, 127.0.0.1:41242][0m
+[mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:41242][0m
+[32mHTTP POST /admin/auth/user/add/ 302 [0.15, 127.0.0.1:41242][0m
+[mHTTP GET /admin/auth/user/4/change/ 200 [0.05, 127.0.0.1:41242][0m
+[mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:41242][0m
+[32mHTTP POST /admin/auth/user/4/change/ 302 [0.03, 127.0.0.1:41242][0m
+[mHTTP GET /admin/auth/user/ 200 [0.04, 127.0.0.1:41242][0m
+[mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:41242][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /chat/creategroup/
+[31;1mHTTP GET /chat/creategroup/ 405 [0.09, 127.0.0.1:45716][0m
+[mHTTP GET /static/rest_framework/css/bootstrap.min.css 200 [0.01, 127.0.0.1:45716][0m
+[mHTTP GET /static/rest_framework/js/jquery-3.5.1.min.js 200 [0.01, 127.0.0.1:45718][0m
+[mHTTP GET /static/rest_framework/js/bootstrap.min.js 200 [0.01, 127.0.0.1:45720][0m
+[mHTTP POST /chat/creategroup/ 201 [0.05, 127.0.0.1:45720][0m
+Internal Server Error: /chat/group/
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[35;1mHTTP GET /chat/group/ 500 [0.05, 127.0.0.1:46820][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+[mHTTP GET /chat/group/ 200 [0.08, 127.0.0.1:47154][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/Serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /chat/1/group/
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/generics.py", line 239, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py", line 33, in list
+    print(serializer.data)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 745, in data
+    ret = super().data
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 663, in to_representation
+    return [
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 500, in to_representation
+    for field in fields:
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 361, in _readable_fields
+    for field in self.fields.values():
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 349, in fields
+    for key, value in self.get_fields().items():
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 1053, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 1199, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 1317, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `first_name` is not valid for model `Group`.
+[35;1mHTTP GET /chat/1/group/ 500 [0.11, 127.0.0.1:49288][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/Serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /chat/1/group/
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/generics.py", line 239, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py", line 33, in list
+    print(serializer.data)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 745, in data
+    ret = super().data
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 663, in to_representation
+    return [
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 500, in to_representation
+    for field in fields:
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 361, in _readable_fields
+    for field in self.fields.values():
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 349, in fields
+    for key, value in self.get_fields().items():
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 1053, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 1199, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 1317, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `is_admin` is not valid for model `User`.
+[35;1mHTTP GET /chat/1/group/ 500 [0.11, 127.0.0.1:49788][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/Serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /chat/1/group/
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'User' object has no attribute 'group_detail'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/generics.py", line 239, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py", line 33, in list
+    print(serializer.data)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 745, in data
+    ret = super().data
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 663, in to_representation
+    return [
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 502, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `group_detail` on serializer `UserSerialzer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `User` instance.
+Original exception text was: 'User' object has no attribute 'group_detail'.
+[35;1mHTTP GET /chat/1/group/ 500 [0.09, 127.0.0.1:49936][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /chat/1/group/
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'User' object has no attribute 'group_detail'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/generics.py", line 239, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py", line 33, in list
+    print(serializer.data)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 745, in data
+    ret = super().data
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 663, in to_representation
+    return [
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 502, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `group_detail` on serializer `UserSerialzer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `User` instance.
+Original exception text was: 'User' object has no attribute 'group_detail'.
+[35;1mHTTP GET /chat/1/group/ 500 [0.10, 127.0.0.1:50862][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/models.py changed, reloading.
+Watching for file changes with StatReloader
+[mHTTP GET /chat/1/group/ 200 [0.09, 127.0.0.1:50960][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+[mHTTP GET /chat/1/group/ 200 [0.08, 127.0.0.1:51488][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+[mHTTP GET /chat/1/group/ 200 [0.09, 127.0.0.1:56152][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /chat/1/group/
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+TypeError: get_queryset() missing 1 required positional argument: 'user_id'
+[35;1mHTTP GET /chat/1/group/ 500 [0.07, 127.0.0.1:56666][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mansi/Documents/work/chat/chatapp/chatapp/core/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mansi/Documents/work/chat/chatapp/chatapp/core/settings.py changed, reloading.
+Watching for file changes with StatReloader
+[mHTTP GET /chat/1/group/ 200 [0.10, 127.0.0.1:58310][0m
+[mHTTP GET /chat/2/group/ 200 [0.04, 127.0.0.1:58310][0m
+[mHTTP GET /chat/3/group/ 200 [0.04, 127.0.0.1:58310][0m
+[mHTTP GET /chat/30/group/ 200 [0.03, 127.0.0.1:58310][0m
+Internal Server Error: /chat/dgsd/group/
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1823, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'dgsd'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/generics.py", line 239, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py", line 32, in list
+    queryset = User.objects.filter(id=user_id)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1347, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1193, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/db/models/lookups.py", line 25, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/db/models/lookups.py", line 77, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1825, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'dgsd'.
+[35;1mHTTP GET /chat/dgsd/group/ 500 [0.08, 127.0.0.1:58310][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /chat/updategroup/
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/generic/edit.py", line 189, in get
+    self.object = self.get_object()
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/generic/detail.py", line 45, in get_object
+    raise AttributeError(
+AttributeError: Generic detail view GroupUpdateView must be called with either an object pk or a slug in the URLconf.
+[35;1mHTTP GET /chat/updategroup/ 500 [0.10, 127.0.0.1:34284][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /chat/1/updategroup/
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 263, in _get_response_async
+    response = await sync_to_async(response.render, thread_sensitive=True)()
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/template/response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/template/response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: chat/group_form.html
+[35;1mHTTP GET /chat/1/updategroup/ 500 [0.11, 127.0.0.1:34896][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /chat/group/action/
+[31;1mHTTP GET /chat/group/action/ 405 [0.08, 127.0.0.1:41938][0m
+[mHTTP PUT /chat/group/action/ 200 [0.04, 127.0.0.1:41938][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /chat/group/action/
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'Group' object has no attribute 'group_detail'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py", line 52, in put
+    print(serializer.data)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 548, in data
+    ret = super().data
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 502, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `group_detail` on serializer `UserSerialzer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Group` instance.
+Original exception text was: 'Group' object has no attribute 'group_detail'.
+[35;1mHTTP PUT /chat/group/action/ 500 [0.12, 127.0.0.1:42576][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /chat/group/action/
+[31;1mHTTP GET /chat/group/action/ 405 [0.08, 127.0.0.1:43056][0m
+Bad Request: /chat/group/action/
+[31;1mHTTP PUT /chat/group/action/ 400 [0.02, 127.0.0.1:43056][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /chat/group/action/
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py", line 49, in put
+    print(serializer.errors)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 553, in errors
+    ret = super().errors
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 257, in errors
+    raise AssertionError(msg)
+AssertionError: You must call `.is_valid()` before accessing `.errors`.
+[35;1mHTTP PUT /chat/group/action/ 500 [0.08, 127.0.0.1:43400][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /chat/group/action/
+[31;1mHTTP GET /chat/group/action/ 405 [0.08, 127.0.0.1:43578][0m
+Bad Request: /chat/group/action/
+[31;1mHTTP PUT /chat/group/action/ 400 [0.07, 127.0.0.1:43578][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+[mHTTP PUT /chat/group/action/ 200 [0.06, 127.0.0.1:43746][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+[mHTTP PUT /chat/group/action/ 200 [0.11, 127.0.0.1:43940][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /chat/group/action/
+[31;1mHTTP GET /chat/group/action/ 405 [0.10, 127.0.0.1:46362][0m
+Internal Server Error: /chat/group/action/
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py", line 48, in put
+    group_data.user_set.add(User.objects.get(id=2))
+AttributeError: 'Group' object has no attribute 'user_set'
+[35;1mHTTP PUT /chat/group/action/ 500 [0.05, 127.0.0.1:46362][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /chat/group/action/
+[31;1mHTTP GET /chat/group/action/ 405 [0.06, 127.0.0.1:46758][0m
+Internal Server Error: /chat/group/action/
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py", line 48, in put
+    group_data.group_detail_set.add(User.objects.get(id=2))
+AttributeError: 'Group' object has no attribute 'group_detail_set'
+[35;1mHTTP PUT /chat/group/action/ 500 [0.09, 127.0.0.1:46758][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /chat/group/action/
+[31;1mHTTP GET /chat/group/action/ 405 [0.09, 127.0.0.1:47848][0m
+Internal Server Error: /chat/group/action/
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py", line 48, in put
+    group_data.group_detail.add(User.objects.get(id=2))
+AttributeError: 'Group' object has no attribute 'group_detail'
+[35;1mHTTP PUT /chat/group/action/ 500 [0.05, 127.0.0.1:47848][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /chat/group/action/
+[31;1mHTTP GET /chat/group/action/ 405 [0.06, 127.0.0.1:47990][0m
+Internal Server Error: /chat/group/action/
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[35;1mHTTP PUT /chat/group/action/ 500 [0.10, 127.0.0.1:47990][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /chat/group/action/
+[31;1mHTTP GET /chat/group/action/ 405 [0.07, 127.0.0.1:48700][0m
+Internal Server Error: /chat/group/action/
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[35;1mHTTP PUT /chat/group/action/ 500 [0.07, 127.0.0.1:48700][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /chat/group/action/
+[33mHTTP GET /chat/group/action/ 404 [0.02, 127.0.0.1:55068][0m
+Method Not Allowed: /chat/group/1/action/
+[31;1mHTTP GET /chat/group/1/action/ 405 [0.04, 127.0.0.1:55068][0m
+[mHTTP DELETE /chat/group/1/action/ 200 [0.02, 127.0.0.1:55068][0m
+Method Not Allowed: /chat/group/1/action/
+[31;1mHTTP GET /chat/group/1/action/ 405 [0.05, 127.0.0.1:55068][0m
+[mHTTP DELETE /chat/group/1/action/ 200 [0.07, 127.0.0.1:55068][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /sign_s3
+[31;1mHTTP OPTIONS /sign_s3 400 [0.05, 127.0.0.1:52702][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/core/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /sign_s3
+[31;1mHTTP OPTIONS /sign_s3 400 [0.05, 127.0.0.1:53214][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/core/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /sign_s3
+[31;1mHTTP OPTIONS /sign_s3 400 [0.06, 127.0.0.1:53356][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/core/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mansi/Documents/work/chat/chatapp/chatapp/core/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mansi/Documents/work/chat/chatapp/chatapp/core/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mansi/Documents/work/chat/chatapp/chatapp/core/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mansi/Documents/work/chat/chatapp/chatapp/core/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/mansi/Documents/work/chat/chatapp/chatapp/core/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mansi/Documents/work/chat/chatapp/chatapp/core/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mansi/Documents/work/chat/chatapp/chatapp/core/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/mansi/Documents/work/chat/chatapp/chatapp/core/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[mHTTP OPTIONS /sign_s3 200 [0.01, 127.0.0.1:57236][0m
+Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /sign_s3
+[31;1mHTTP POST /sign_s3 400 [0.04, 127.0.0.1:57236][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/core/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /sign_s3
+[33mHTTP POST /sign_s3 404 [0.02, 127.0.0.1:57522][0m
+[mHTTP OPTIONS /chat/sign_s3 200 [0.01, 127.0.0.1:57522][0m
+Internal Server Error: /chat/sign_s3
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 129, in __acall__
+    response = await sync_to_async(
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/chat/sign_s3/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[35;1mHTTP POST /chat/sign_s3 500 [0.04, 127.0.0.1:57522][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/urls.py changed, reloading.
+Watching for file changes with StatReloader
+[mHTTP OPTIONS /chat/sign_s3/ 200 [0.01, 127.0.0.1:58124][0m
+Internal Server Error: /chat/sign_s3/
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[35;1mHTTP POST /chat/sign_s3/ 500 [0.10, 127.0.0.1:58124][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+[mHTTP POST /chat/sign_s3/ 200 [0.08, 127.0.0.1:59038][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.02, 127.0.0.1:59818][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:37582][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.04, 127.0.0.1:38172][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.04, 127.0.0.1:38172][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.04, 127.0.0.1:38172][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.04, 127.0.0.1:38172][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.04, 127.0.0.1:38172][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.04, 127.0.0.1:38172][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.04, 127.0.0.1:38172][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.02, 127.0.0.1:40224][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.04, 127.0.0.1:40224][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py changed, reloading.
+Watching for file changes with StatReloader
+[mHTTP POST /chat/sign_s3/ 200 [0.10, 127.0.0.1:42222][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.02, 127.0.0.1:43362][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.02, 127.0.0.1:43362][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:46902][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:48864][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:51682][0m
+Watching for file changes with StatReloader
+[mHTTP OPTIONS /chat/sign_s3/ 200 [0.00, 127.0.0.1:33114][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.09, 127.0.0.1:33114][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.02, 127.0.0.1:35512][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/common/utils4.py changed, reloading.
+Watching for file changes with StatReloader
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:42124][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:43500][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:44956][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/common/utils4.py changed, reloading.
+Watching for file changes with StatReloader
+[mHTTP POST /chat/sign_s3/ 200 [0.01, 127.0.0.1:49006][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.01, 127.0.0.1:49542][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:50142][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:51686][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:54354][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:55782][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:55782][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.01, 127.0.0.1:38252][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/common/utils4.py changed, reloading.
+Watching for file changes with StatReloader
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:39884][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:40480][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.04, 127.0.0.1:41690][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.02, 127.0.0.1:41690][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:41690][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.01, 127.0.0.1:44992][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:47588][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:48532][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/common/utils4.py changed, reloading.
+Watching for file changes with StatReloader
+[mHTTP OPTIONS /chat/sign_s3/ 200 [0.01, 127.0.0.1:53898][0m
+Internal Server Error: /chat/sign_s3/
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py", line 85, in post
+    response = create_presigned_post('mybucket-chatapp', request.data['fileName'])
+  File "/home/mansi/Documents/work/chat/chatapp/chatapp/apps/common/utils4.py", line 11, in create_presigned_post
+    response = s3_client.generate_presigned_post(bucket_name,
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/botocore/signers.py", line 707, in generate_presigned_post
+    conditions.append({'bucket': bucket})
+AttributeError: 'dict' object has no attribute 'append'
+[35;1mHTTP POST /chat/sign_s3/ 500 [0.09, 127.0.0.1:53898][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/common/utils4.py changed, reloading.
+Watching for file changes with StatReloader
+[mHTTP POST /chat/sign_s3/ 200 [0.02, 127.0.0.1:54548][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/common/utils4.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /chat/sign_s3/
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py", line 85, in post
+    response = create_presigned_post('mybucket-chatapp', request.data['fileName'])
+  File "/home/mansi/Documents/work/chat/chatapp/chatapp/apps/common/utils4.py", line 14, in create_presigned_post
+    Conditions=[{{"Content-Type": 'video/webm'},}],
+TypeError: unhashable type: 'dict'
+[35;1mHTTP POST /chat/sign_s3/ 500 [0.09, 127.0.0.1:55054][0m
+Internal Server Error: /chat/sign_s3/
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py", line 85, in post
+    response = create_presigned_post('mybucket-chatapp', request.data['fileName'])
+  File "/home/mansi/Documents/work/chat/chatapp/chatapp/apps/common/utils4.py", line 14, in create_presigned_post
+    Conditions=[{{"Content-Type": 'video/webm'},}],
+TypeError: unhashable type: 'dict'
+[35;1mHTTP POST /chat/sign_s3/ 500 [0.07, 127.0.0.1:55054][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/common/utils4.py changed, reloading.
+Watching for file changes with StatReloader
+[mHTTP POST /chat/sign_s3/ 200 [0.02, 127.0.0.1:55536][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/common/utils4.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /chat/sign_s3/
+Traceback (most recent call last):
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 482, in thread_handler
+    raise exc_info[1]
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 444, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/asgiref/sync.py", line 486, in thread_handler
+    return func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mansi/Documents/work/chat/chatapp/chatapp/apps/chat/views.py", line 85, in post
+    response = create_presigned_post('mybucket-chatapp', request.data['fileName'])
+  File "/home/mansi/Documents/work/chat/chatapp/chatapp/apps/common/utils4.py", line 11, in create_presigned_post
+    response = s3_client.generate_presigned_post(bucket_name,
+  File "/home/mansi/Documents/work/chat/chatapp/venv/lib/python3.8/site-packages/botocore/signers.py", line 707, in generate_presigned_post
+    conditions.append({'bucket': bucket})
+AttributeError: 'set' object has no attribute 'append'
+[35;1mHTTP POST /chat/sign_s3/ 500 [0.09, 127.0.0.1:59332][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/common/utils4.py changed, reloading.
+Watching for file changes with StatReloader
+[mHTTP POST /chat/sign_s3/ 200 [0.02, 127.0.0.1:59594][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.04, 127.0.0.1:60544][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:32814][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/common/utils4.py changed, reloading.
+Watching for file changes with StatReloader
+[mHTTP POST /chat/sign_s3/ 200 [0.04, 127.0.0.1:37474][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/common/utils4.py changed, reloading.
+Watching for file changes with StatReloader
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:38452][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/common/utils4.py changed, reloading.
+Watching for file changes with StatReloader
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:39860][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/common/utils4.py changed, reloading.
+Watching for file changes with StatReloader
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:42450][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/common/utils4.py changed, reloading.
+Watching for file changes with StatReloader
+[mHTTP POST /chat/sign_s3/ 200 [0.04, 127.0.0.1:43856][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:45748][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/common/utils4.py changed, reloading.
+Watching for file changes with StatReloader
+[mHTTP POST /chat/sign_s3/ 200 [0.02, 127.0.0.1:46080][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:46826][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.02, 127.0.0.1:47882][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:48468][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:49214][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.04, 127.0.0.1:49214][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/common/utils4.py changed, reloading.
+Watching for file changes with StatReloader
+[mHTTP POST /chat/sign_s3/ 200 [0.04, 127.0.0.1:50206][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/common/utils4.py changed, reloading.
+Watching for file changes with StatReloader
+[mHTTP POST /chat/sign_s3/ 200 [0.02, 127.0.0.1:50544][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/common/utils4.py changed, reloading.
+Watching for file changes with StatReloader
+[mHTTP POST /chat/sign_s3/ 200 [0.02, 127.0.0.1:52250][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:52250][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.04, 127.0.0.1:56858][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.02, 127.0.0.1:59768][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:59768][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.04, 127.0.0.1:59768][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:59768][0m
+/home/mansi/Documents/work/chat/chatapp/chatapp/apps/common/utils4.py changed, reloading.
+Watching for file changes with StatReloader
+[mHTTP POST /chat/sign_s3/ 200 [0.02, 127.0.0.1:32872][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.05, 127.0.0.1:32872][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:32872][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:32872][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:32872][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.04, 127.0.0.1:32872][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.04, 127.0.0.1:32872][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.04, 127.0.0.1:32872][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.02, 127.0.0.1:35296][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:35868][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:36838][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:38328][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.02, 127.0.0.1:38328][0m
+[mHTTP POST /chat/sign_s3/ 200 [0.03, 127.0.0.1:40572][0m
