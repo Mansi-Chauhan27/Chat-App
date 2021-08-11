@@ -30,6 +30,10 @@ class Message(models.Model):
         db_table = "messages"
         verbose_name = "Message"
         managed  = True
+    
+    def last_10_messages():
+        # hard coded the group_id
+        return Message.objects.filter(to_group_id = 1).order_by('created_at')[:10]
 
 
 class UrlToken(models.Model):
