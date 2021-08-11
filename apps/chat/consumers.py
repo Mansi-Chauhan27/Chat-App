@@ -20,10 +20,10 @@ class ChatRoomConsumer(AsyncWebsocketConsumer):
             # )
             print(self.scope['user'])
             await self.accept()
-            self.joined_rooms = ['test']
+            self.joined_rooms = [1]
             for room in self.joined_rooms:
                 await self.channel_layer.group_add(
-                    'group_' + room,
+                    'group_' + str(room),
                     self.channel_name
                 )
 
@@ -50,8 +50,8 @@ class ChatRoomConsumer(AsyncWebsocketConsumer):
         username = text_data_json['username']
         count=3
         print(self.scope)
-        group_name = text_data_json['group']
-        self.room_group_name = group_name
+        group = text_data_json['group']
+        self.room_group_name = group
         print(self.channel_name)
         print(self.channel_layer,self.room_group_name)
         # await self.channel_layer.group_add(
@@ -60,13 +60,13 @@ class ChatRoomConsumer(AsyncWebsocketConsumer):
         #     )
         try:
             await self.channel_layer.group_send(
-                'group_' + group_name,
+                'group_' + str(group),
                 {
                     'type': 'chatroom_message',
                     'message': message,
                     'username': username,
                     'id':count+1,
-                    'group': group_name
+                    'group': group
                 }
             )
             # await self.channel_layer.group_send(
